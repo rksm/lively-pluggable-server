@@ -12,7 +12,7 @@
   ],
   "author": "RobertKrahn",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "nodeunit": "~0.8.1",
     "restify": "~2.6.0",
     "request": "~2.25.0"
