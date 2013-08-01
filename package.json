@@ -1,14 +1,14 @@
 {
-  "name": "lively-subserver-tester",
-  "version": "0.0.1",
-  "description": "Simple test harness using nodeunit and restify to test LivelyKernel susbservers",
+  "name": "lively-pluggable-server",
+  "version": "0.0.2",
+  "description": "Restify-based server to run Lively subservers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/nodeunit/bin/nodeunit tests.js"
   },
   "keywords": [
     "LivelyKernel",
-    "testing"
+    "LivelyWeb"
   ],
   "author": "RobertKrahn",
   "license": "MIT",
