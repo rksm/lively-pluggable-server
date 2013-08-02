@@ -1,10 +1,10 @@
 {
   "name": "lively-pluggable-server",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Restify-based server to run Lively subservers",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/nodeunit/bin/nodeunit tests.js"
+    "test": "node_modules/nodeunit/bin/nodeunit tests.js --reporter minimal"
   },
   "keywords": [
     "LivelyKernel",
@@ -13,8 +13,9 @@
   "author": "RobertKrahn",
   "license": "MIT",
   "dependencies": {
-    "nodeunit": "~0.8.1",
-    "restify": "~2.6.0",
-    "request": "~2.25.0"
+    "nodeunit": "~0.8",
+    "restify": "~2.6",
+    "request": "~2.25",
+    "async": "~0.2"
   }
 }
