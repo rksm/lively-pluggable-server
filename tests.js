@@ -1,7 +1,7 @@
 var serverManager = require('./index'),
     path = require("path"),
     async = require("async"),
-    fsHelper = require("./fs-helper"),
+    fsHelper = require("lively-fs-helper"),
     port = 9003, server;
 
 var subserver;

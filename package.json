@@ -17,5 +17,8 @@
     "restify": "~2.6",
     "request": "~2.25",
     "async": "~0.2"
+  },
+  "devDependencies": {
+    "lively-fs-helper": "https://github.com/rksm/lively-fs-helper/tarball/master"
   }
 }
